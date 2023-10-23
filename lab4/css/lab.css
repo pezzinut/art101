@@ -7,3 +7,9 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#js-screenshot {
+  width: 500px;
+  border: solid 10 pxx  #91b100;
+}
+

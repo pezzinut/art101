@@ -38,3 +38,15 @@
     font-family: sans-serif;
     font-size: 0.8em;
   }
+
+  .text:nth-child(odd) p {
+    padding-left:15px;
+    background-color: antiquewhite;
+    text-align: left;
+  }
+
+  .text:nth-child(even) p {
+    padding-right: 15 px;
+    background-color: aquamarine;
+    text-align: right;
+  }

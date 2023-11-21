@@ -27,8 +27,10 @@ var mapResults = numbersArray.map(lol);
 console.log("Results:", mapResults)
 
 //TASK X BONUS!!!
+
+
 // Your map results data
-var mapResults = "array(10)";
+var mapResults = "Your map results here";
 
 // Use jQuery to select the element by its ID and set the HTML content
-$("#output").html(mapResults);
+$("#output").html(mapResults = numbersArray.map(lol));

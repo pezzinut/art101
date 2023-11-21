@@ -15,32 +15,11 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-
-    // Append a button to the "challenge" section
-    $("#challenge").append("<button id='challengeButton'>Challenge Button</button>");
-
-    // Append a button to the "problems" section
-    $("#problems").append("<button id='problemsButton'>Problems Button</button>");
-
-    // Append a button to the "results" section
-    $("#results").append("<button id='resultsButton'>Results Button</button>");
-
-    // Add event listeners to the buttons
-    $("#challengeButton").on("click", function(){
-        alert("Challenge button clicked!");
-        // Add more functionality as needed
-    });
-
-    $("#problemsButton").on("click", function(){
-        alert("Problems button clicked!");
-        // Add more functionality as needed
-    });
-
-    $("#resultsButton").on("click", function(){
-        alert("Results button clicked!");
-        // Add more functionality as needed
+    // Add a click event listener to all buttons with class 'toggleButton'
+    $(".toggleButton").on("click", function(){
+        // Toggle the 'special' class on the parent section of the clicked button
+        $(this).parent().toggleClass("special");
     });
 });
-
 
 

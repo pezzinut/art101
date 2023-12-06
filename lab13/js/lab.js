@@ -22,6 +22,10 @@ function fizzbuzz() {
         output += "Boom";
       }
   
+      if (num % 10 === 0) {
+        output += "Bam";
+        
+      }
       if (output === "") {
         output = num;
       }

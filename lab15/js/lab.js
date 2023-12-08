@@ -1,7 +1,7 @@
 console.log("JS Loaded");
 $.ajax({
     //API urll
-    url: "https://pokeapi.co/api/v2/pokemon/137/",
+    url: "https://api.nasa.gov/planetary/apod",
     type:"GET",
     //data type we want to get back
     dataType: "json",
